@@ -68,6 +68,12 @@ a {
     width: 420px;   
 }
 
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .hero-text {
     color: #bbbbbb;
     line-height: 1.6;
@@ -92,4 +98,49 @@ a {
     border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Quote Section */
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    text-align: center;
+}
+
+.img-container {
+    padding: 40px 0;
+}
+
+.img-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.img-content {
+    width: 200px;
+    /* border: 2px solid pink; */
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;   
+}
+
+.img-content  > p {
+    font-size: 14px;
+    margin-top: 10px;
 }
