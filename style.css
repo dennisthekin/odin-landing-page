@@ -28,7 +28,7 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 30px 0;
 
     /* height: 100vh; */
 }
@@ -137,7 +137,9 @@ a {
 .img-size {
     width: 180px;
     height: 180px;
-    border-radius: 10px;   
+    border-radius: 10px;
+
+    object-fit: cover;
 }
 
 .img-content  > p {
@@ -184,7 +186,7 @@ a {
 }
 
 .cta {
-    width: 1000px;
+    width: 900px;
     height: 150px;
     color: #fff;
     /* padding: 50px 0; */
@@ -197,7 +199,7 @@ a {
 }
 
 .cta-title {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .btn-cta {
