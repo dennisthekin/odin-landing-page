@@ -30,7 +30,7 @@ a {
     justify-content: center;
     padding: 20px 0;
 
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .header-container {
@@ -100,20 +100,20 @@ a {
     font-weight: 700;
 }
 
-/* Quote Section */
+/* Image Section */
 
-.content {
+.img-section {
     display: flex;
     justify-content: center;
-}
 
-.container {
-    width: 1200px;
-    text-align: center;
+    padding: 40px 0;
 }
 
 .img-container {
-    padding: 40px 0;
+    width: 1200px;
+    text-align: center;
+
+    /* border: 2px solid red; */
 }
 
 .img-text {
